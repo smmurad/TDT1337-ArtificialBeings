@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="Cortex:&#xD;&#xA;This is the different processing blocks in BrainLoop">
+    <Position X="4.151" Y="0.848" Height="0.908" Width="2.017" />
+  </Comment>
   <Class Name="MultiThreadDemo.Mainframe" Collapsed="true">
-    <Position X="16" Y="1.75" Width="1.5" />
+    <Position X="16" Y="1.25" Width="1.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
       <Compartment Name="Methods" Collapsed="true" />
@@ -12,14 +15,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="MultiThreadDemo.Program" Collapsed="true">
-    <Position X="17.75" Y="1.75" Width="1.5" />
+    <Position X="17.75" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MultiThreadDemo.Properties.Resources" Collapsed="true">
-    <Position X="14.25" Y="2.75" Width="1.5" />
+    <Position X="14.25" Y="2.25" Width="1.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
       <Compartment Name="Properties" Collapsed="true" />
@@ -30,20 +33,20 @@
     </TypeIdentifier>
   </Class>
   <Class Name="MultiThreadDemo.Properties.Settings" Collapsed="true">
-    <Position X="16" Y="2.75" Width="1.5" />
+    <Position X="16" Y="2.25" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
     </TypeIdentifier>
   </Class>
-  <Class Name="MultiThreadDemo.BrainLoop" Collapsed="true">
-    <Position X="14.25" Y="1.75" Width="1.5" />
+  <Class Name="MultiThreadDemo.BrainLoop">
+    <Position X="14.25" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
       <FileName>BrainLoop.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MultiThreadDemo.Cortex" Collapsed="true">
-    <Position X="7.25" Y="1.75" Width="1.5" />
+    <Position X="7.25" Y="1.25" Width="1.5" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
@@ -54,63 +57,63 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="MultiThreadDemo.CortexInput" Collapsed="true">
-    <Position X="2.75" Y="3" Width="1.5" />
+    <Position X="2.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Cortex.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MultiThreadDemo.CortexTransform" Collapsed="true">
-    <Position X="5" Y="3" Width="1.5" />
+    <Position X="5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Cortex.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MultiThreadDemo.CortexIdentify" Collapsed="true">
-    <Position X="7.25" Y="3" Width="1.5" />
+    <Position X="7.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Cortex.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MultiThreadDemo.CortexSolve" Collapsed="true">
-    <Position X="9.5" Y="3" Width="1.5" />
+    <Position X="9.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Cortex.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MultiThreadDemo.CortexOutput" Collapsed="true">
-    <Position X="11.75" Y="3" Width="1.5" />
+    <Position X="11.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Cortex.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Struct Name="MultiThreadDemo.CortexConnection" Collapsed="true">
-    <Position X="6.5" Y="6" Width="1.5" />
+    <Position X="6.5" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Cortex.cs</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="MultiThreadDemo.InternalData" Collapsed="true">
-    <Position X="0.5" Y="6" Width="1.5" />
+    <Position X="0.5" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Cortex.cs</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="MultiThreadDemo.CortexConfiguration" Collapsed="true">
-    <Position X="3.5" Y="8" Width="1.5" />
+    <Position X="3.5" Y="7.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Cortex.cs</FileName>
     </TypeIdentifier>
   </Struct>
   <Interface Name="MultiThreadDemo.ICortex" Collapsed="true">
-    <Position X="3.5" Y="6" Width="1.5" />
+    <Position X="3.5" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAQAAEgAAABIAAA=</HashCode>
       <FileName>Cortex.cs</FileName>

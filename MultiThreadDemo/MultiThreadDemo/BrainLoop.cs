@@ -7,6 +7,13 @@ namespace MultiThreadDemo
 {
     public class BrainLoop
     {
+        private Dictionary<string,Cortex[]> loopInstances;
+
+        public BrainLoop()
+        {
+            throw new System.NotImplementedException();
+        }
+
         public string name
         {
             get
