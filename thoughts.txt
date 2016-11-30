@@ -1,0 +1,6 @@
+* A beings brain is composed of two information systems:
+  - The corpus: The primal brain. It is responsible for motor autonomous functions such as memory recall, sleep cycles and body 
+    maintenance.
+  - The dynamic: The ever shifting flow and handle of external information. Partially controlled by the corpus.
+  
+  
